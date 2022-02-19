@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Win11.com</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="landing/css/bootstrap4.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="landing/icofont/icofont.min.css" rel="stylesheet">
+  <link href="landing/css/landing.css" rel="stylesheet">
+
+ 
+</head>
+
+<body>  
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Win11</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Match</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fantasy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More</a>
+          </li>
+        </ul>
+        <a class="signIn">Login/Register</a>
+      </div>
+    </nav>
+  </header><!-- End Header -->
+
+
+
+  <main id="main">
+
+  <!-- ======= Hero Section ======= -->
+  <section id="home" class="homeSlide">
+		
+    <div class="container">
+			
+      <div class="row">
+				<div class="col-md-8 col-xs-12">
+					<div class="banner-text">
+						<h1 class="font-light">All Sports<br>
+              <span>One Fantasy Destination</span>
+            </h1>		
+            <div class="download_with">
+              <div class="get_apk">
+                  <p>Enter your phone no. to Download App</p>
+                    <form id="sendlinkform">
+                      <div class="formblock">
+                        <span class="telcode">+91</span> 
+                        <input type="text" placeholder="Enter your mobile number" id="mobilenumber" maxlength="10" onkeyup="this.value=this.value.replace(/[^\d]/,&quot;&quot;)"> 
+                          <button type="button" onclick="sendlink()" class="btn green">Get App Link</button>
+                      </div>
+                      <p id="moberror" style="display:none"></p>
+                      <p id="mobgreen" style="display:none"></p>
+                    </form>
+                </div>
+                <div class="qr_scaner">
+                  <span class="qrscan_img">
+                    <img style="width:80px;height:80px;flex:0 0 80px;max-width:80px" src="https://d2dff8b7n2b8d5.cloudfront.net/mt11v5_images/mtscan.svg" alt="Myteam11 QR Scan"></span>
+                    <p>Scan QR Code to Download App</p>
+                </div>
+            </div>						
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<!-- <div class="player-add">
+					<img src="landing/img/sehwag-v2.png">
+				</div> -->
+			</div>
+		</div>
+
+    <ul class="speciality" style="display: none;">
+      <li>
+        <span class="icon">
+          <svg id="Group_10" data-name="Group 10" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g id="_001-inbox" data-name="001-inbox" transform="translate(0 1)"><g id="Group_5" data-name="Group 5"><g id="Group_4" data-name="Group 4" transform="translate(0 0)"><path id="Path_13" data-name="Path 13" d="M29.9,128.356l-3.907-8.407a.7.7,0,0,0-.663-.349H21.977a.7.7,0,1,0,0,1.4h2.9l3.244,6.977H24.14a4.57,4.57,0,0,0-4.186,2.686,3.244,3.244,0,0,1-2.93,1.849H12.977a3.244,3.244,0,0,1-2.93-1.849,4.57,4.57,0,0,0-4.186-2.686H1.953L5.791,121H8.023a.7.7,0,1,0,0-1.4H5.372a.663.663,0,0,0-.628.314l-4.6,8.442a.419.419,0,0,0-.14.279v8.686a3.663,3.663,0,0,0,3.593,3.558H26.407A3.663,3.663,0,0,0,30,137.321v-8.686A.662.662,0,0,0,29.9,128.356Z" transform="translate(0 -112.345)" fill="#fff"></path><path id="Path_14" data-name="Path 14" d="M149.078,27.122a.663.663,0,0,0,.936.04c.014-.013.027-.026.04-.04l4.744-4.779a.7.7,0,0,0-.977-.977l-3.558,3.558V11.669a.7.7,0,0,0-1.4,0V24.925l-3.558-3.558a.7.7,0,0,0-.977.977Z" transform="translate(-134.567 -10.971)" fill="#fff"></path></g></g></g><rect id="Rectangle_3007" data-name="Rectangle 3007" width="30" height="30" fill="none"></rect></svg>
+        </span>
+        <p>18 Million+ <small>Downloads</small></p>
+      </li>
+
+      <li>
+        <span class="icon">
+          <svg id="Group_10" data-name="Group 10" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g id="_001-inbox" data-name="001-inbox" transform="translate(0 1)"><g id="Group_5" data-name="Group 5"><g id="Group_4" data-name="Group 4" transform="translate(0 0)"><path id="Path_13" data-name="Path 13" d="M29.9,128.356l-3.907-8.407a.7.7,0,0,0-.663-.349H21.977a.7.7,0,1,0,0,1.4h2.9l3.244,6.977H24.14a4.57,4.57,0,0,0-4.186,2.686,3.244,3.244,0,0,1-2.93,1.849H12.977a3.244,3.244,0,0,1-2.93-1.849,4.57,4.57,0,0,0-4.186-2.686H1.953L5.791,121H8.023a.7.7,0,1,0,0-1.4H5.372a.663.663,0,0,0-.628.314l-4.6,8.442a.419.419,0,0,0-.14.279v8.686a3.663,3.663,0,0,0,3.593,3.558H26.407A3.663,3.663,0,0,0,30,137.321v-8.686A.662.662,0,0,0,29.9,128.356Z" transform="translate(0 -112.345)" fill="#fff"></path><path id="Path_14" data-name="Path 14" d="M149.078,27.122a.663.663,0,0,0,.936.04c.014-.013.027-.026.04-.04l4.744-4.779a.7.7,0,0,0-.977-.977l-3.558,3.558V11.669a.7.7,0,0,0-1.4,0V24.925l-3.558-3.558a.7.7,0,0,0-.977.977Z" transform="translate(-134.567 -10.971)" fill="#fff"></path></g></g></g><rect id="Rectangle_3007" data-name="Rectangle 3007" width="30" height="30" fill="none"></rect></svg>
+        </span>
+        <p>18 Million+ <small>Downloads</small></p>
+      </li>
+
+      <li>
+        <span class="icon">
+          <svg id="Group_10" data-name="Group 10" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g id="_001-inbox" data-name="001-inbox" transform="translate(0 1)"><g id="Group_5" data-name="Group 5"><g id="Group_4" data-name="Group 4" transform="translate(0 0)"><path id="Path_13" data-name="Path 13" d="M29.9,128.356l-3.907-8.407a.7.7,0,0,0-.663-.349H21.977a.7.7,0,1,0,0,1.4h2.9l3.244,6.977H24.14a4.57,4.57,0,0,0-4.186,2.686,3.244,3.244,0,0,1-2.93,1.849H12.977a3.244,3.244,0,0,1-2.93-1.849,4.57,4.57,0,0,0-4.186-2.686H1.953L5.791,121H8.023a.7.7,0,1,0,0-1.4H5.372a.663.663,0,0,0-.628.314l-4.6,8.442a.419.419,0,0,0-.14.279v8.686a3.663,3.663,0,0,0,3.593,3.558H26.407A3.663,3.663,0,0,0,30,137.321v-8.686A.662.662,0,0,0,29.9,128.356Z" transform="translate(0 -112.345)" fill="#fff"></path><path id="Path_14" data-name="Path 14" d="M149.078,27.122a.663.663,0,0,0,.936.04c.014-.013.027-.026.04-.04l4.744-4.779a.7.7,0,0,0-.977-.977l-3.558,3.558V11.669a.7.7,0,0,0-1.4,0V24.925l-3.558-3.558a.7.7,0,0,0-.977.977Z" transform="translate(-134.567 -10.971)" fill="#fff"></path></g></g></g><rect id="Rectangle_3007" data-name="Rectangle 3007" width="30" height="30" fill="none"></rect></svg>
+        </span>
+        <p>18 Million+ <small>Downloads</small></p>
+      </li>
+    </ul>
+
+   </div>   
+
+</section>  
+
+<section class="quickLinks">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <p class="m-0"><span>Quick Links</span></p>
+      </div>
+      <div class="col-lg-9">
+        <ul>
+          <li><a href="#">How to play</a></li>
+          <li><a href="#">How to select match</a></li>
+          <li><a href="#">How to create Team</a></li>
+          <li><a href="#">How to join</a></li>
+        </ul>
+      </div> 
+    </div> 
+  </div> 
+</section> 
+
+<!-- ======= Why Us Section ======= -->
+<section id="why-us" class="why-us">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Downloading the Win11 App is Easy!</h2>
+      <p class="width60">iOS users can download MyTeam11 from the App Store while for Android users online fantasy sports are offered as apk. Here’s how to download & install.</p>
+    </div>
+
+    <div class="row">          
+      <div class="col-lg-12 d-flex align-items-stretch">
+        <div class="icon-boxes d-flex flex-column justify-content-center">
+          <div class="row">
+            <div class="col-xl-4 d-flex align-items-stretch">
+              <div class="icon-box mt-4 mt-xl-0">
+                <i class="bx bx-receipt"></i>
+                <h4>Select A Match</h4>
+                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              </div>
+            </div>
+            <div class="col-xl-4 d-flex align-items-stretch">
+              <div class="icon-box mt-4 mt-xl-0">
+                <i class="bx bx-cube-alt"></i>
+                <h4>Create Team</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              </div>
+            </div>
+            <div class="col-xl-4 d-flex align-items-stretch">
+              <div class="icon-box mt-4 mt-xl-0">
+                <i class="bx bx-images"></i>
+                <h4>Join Contests</h4>
+                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              </div>
+            </div>
+          </div>
+        </div><!-- End .content-->
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Why Us Section -->    
+
+  <!-- ======= Doctors Section ======= -->
+<section id="doctors" class="doctors">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Hear it from Our Winners</h2>
+      <p class="width60">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="member d-flex align-items-start">
+          <div class="pic">
+          	<img src="landing/img/player-ar.png" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4>Walter White</h4>
+            <span>Mega Contest Winner</span>
+            <p>Cricket is much more than a passion for me. Cricket is life. That’s why I like playing on Dream11 so much. Thanks to its contests, I'm not just using my knowledge of cricket every day but also earning from it.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <div class="member d-flex align-items-start">
+          <div class="pic">
+          	<img src="landing/img/player-ar.png" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4>Walter White</h4>
+            <span>Mega Contest Winner</span>
+            <p>Cricket is much more than a passion for me. Cricket is life. That’s why I like playing on Dream11 so much. Thanks to its contests, I'm not just using my knowledge of cricket every day but also earning from it.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mt-4">
+        <div class="member d-flex align-items-start">
+          <div class="pic">
+          	<img src="landing/img/player-ar.png" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4>Walter White</h4>
+            <span>Mega Contest Winner</span>
+            <p>Cricket is much more than a passion for me. Cricket is life. That’s why I like playing on Dream11 so much. Thanks to its contests, I'm not just using my knowledge of cricket every day but also earning from it.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mt-4">
+        <div class="member d-flex align-items-start">
+          <div class="pic">
+          	<img src="landing/img/player-ar.png" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4>Walter White</h4>
+            <span>Mega Contest Winner</span>
+            <p>Cricket is much more than a passion for me. Cricket is life. That’s why I like playing on Dream11 so much. Thanks to its contests, I'm not just using my knowledge of cricket every day but also earning from it.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Doctors Section -->  
+
+<section class="why-us">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Win11 App FAQ!</h2>
+      <p class="width60">iOS users can download MyTeam11 from the App Store while for Android users online fantasy sports are offered as apk. Here’s how to download & install.</p>
+    </div>
+
+    <div class="row">          
+      <div class="col-lg-12 d-flex align-items-stretch">
+        
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Why Us Section -->       
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Win11</h3>
+          <p>
+            A108 Adam Street <br>
+            New York, NY 535022<br>
+            United States <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Join Our Newsletter</h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-md-flex py-4">
+
+    <div class="mr-md-auto text-center text-md-left">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Win11</span></strong>. All Rights Reserved
+      </div>        
+    </div>
+    <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+      <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+      <a href="#" class="instagram"><i class="icofont-instagram"></i></a>       
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<div class="disclamer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p>This game involves an element of financial risk and may be addictive. Please play responsibly at your own risk. The game is applicable for people above 18 only.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="preloader"></div>
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="landing/js/jquery.min.js"></script> 
+<script src="landing/js/owl.carousel.min.js"></script> 
+
+
+<!-- Template Main JS File -->
+<script src="landing/js/landing.js"></script>
+
+</body>
+
+</html>
